@@ -1,0 +1,15 @@
+# Homework 1
+
+## Problem 1.3
+
+The sample space for this experient is infinite. Since we need to toss until two heads
+appear in a row, for any n, we could toss n coins, as long as the last two are heads in
+a row and there does not exist any other two heads in a row.
+
+For a fair coin, the probability of only tossing 4 coins is, the probability of
+tossing (H, T, H, H) and (T, T, H, H). The probability of one event is 2^-4, and
+since there are two, the union of the events sums the probabilities, giving 2^-3.
+
+```julia; echo=true
+2^-3
+```
